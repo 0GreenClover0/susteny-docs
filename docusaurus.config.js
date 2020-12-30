@@ -36,7 +36,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/0GreenClover0/susteny-docs',
+            'https://github.com/0GreenClover0/susteny-docs/tree/master',
         },
         blog: {
           showReadingTime: true,
