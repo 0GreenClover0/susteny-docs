@@ -9,7 +9,7 @@ Na tej stronie opisany jest proces tworzenia **przedmiotów**, czyli obiektów, 
 
 Jeżeli twoim celem jest jedynie stworzenie obiektów, z którymi gracz będzie wchodził w interakcję, *w świecie gry*, i nie będzie ich przenosił w ekwipunku, może bardziej zainteresuje cię: [Tworzenie elementów interaktywnych](interactables)
 
-Należy stworzyć specjalny Scriptable Object w assetach (najlepiej w odpowiednim folderze). Można to zrobić klikając prawym przyciskiem myszki na folderze -> Create -> Inventory system -> Item
+Tworzymy specjalny Scriptable Object w assetach (najlepiej w odpowiednim folderze). Można to zrobić klikając prawym przyciskiem myszki na folderze -> Create -> Inventory system -> Item
 
 Utworzy nam to bazę pod przedmiot.
 Asset nazywamy jak chcemy, nazwa ta nie będzie widoczna w grze.
@@ -32,10 +32,10 @@ Aby dodać nowy typ, trzeba ręcznie dodać go w skrypcie Item, w enumie ItemTyp
 Jest to dość nieefektywny sposób na identyfikację przedmiotów (trzeba ręcznie dodawać nowe typy w kodzie, typy są globalne dla wszystkich leveli itd.) dlatego najprawdopodobniej system ten zostanie zmieniony.
 :::
 
-2. Kolejną rzeczą jest World Model. Jest to model przedmiotu oglądanego z ekwipunku gracza. Aktualnie nie powinien mieć on żadnych dodatkowych skryptów, ani nawet colliderów, ma to być prosty model 3D. Zastanawiamy się jednak nad wprowadzeniem różnego rodzaju interakcji, które gracz mógłby wykonać podczas oglądania przedmiotu (np. wysunięcie czegoś, starcie zdrapki itp.).
+2. Kolejną rzeczą do uzupełnienia jest World Model. Jest to model przedmiotu oglądanego z ekwipunku gracza. Aktualnie nie powinien mieć on żadnych dodatkowych skryptów (w szczególności ItemWorld lub Interactable!), ma to być prosty model 3D. Jeżeli zdecydujemy się żeby gracz mógł wykonywać różne interakcje podczas oglądania przedmiotu (np. wysunięcie czegoś, starcie zdrapki itp.) to dodatkowe skrypty oczywiście będą potrzebne.
 
 :::warning
-Nie jest to ten sam model przedmiotu, który oglądamy **podnosząc** przedmiot w świecie gry! Być może ulegnie to zmianie (np. jeśli wprowadzimy interakcje z przedmiotem podczas oglądania go), ale na razie nie jest to zaplanowane (gdybyśmy jednak postanowili to zrobić, World Model prawdopodobnie byłby używany w obu przypadkach, tzn. oglądając przedmiot w świecie gry, jak i oglądając go z ekwipunku).
+Nie jest to ten sam model przedmiotu, który oglądamy **podnosząc** przedmiot w świecie gry! Być może ulegnie to zmianie (np. gdy wprowadzimy dodatkowe interakcje podczas oglądania przedmiotu), ale na razie nie jest to zaplanowane (gdybyśmy jednak postanowili to zrobić, World Model prawdopodobnie byłby używany w obu przypadkach, tzn. oglądając przedmiot w świecie gry, jak i oglądając go z ekwipunku).
 :::
 
 3. Inventory icon - mówi samo za siebie, jest to ikonka przedmiotu, która pojawia się gdy gracz przegląda ekwipunek.
