@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Susteny',
   tagline: 'Thriller game by Clovermike created with Unity',
-  url: 'https://github.com/MikeMG-PL/Susteny',
+  url: 'https://github.com/0GreenClover0/susteny-docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
