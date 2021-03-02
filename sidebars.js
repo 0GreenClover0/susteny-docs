@@ -1,6 +1,14 @@
 module.exports = {
-  docs: {
-    Dokumentacja: ['doc'],
-    Systemy: ['doc1', 'doc2'],
-  },
+  docs: [
+    {
+      type: 'category',
+      label: 'Dokumentacja',
+      items: ['doc'],
+    },
+    {
+      type: 'category',
+      label: 'Systemy',
+      items: ['doc1', 'doc2'],
+    }
+  ],
 };
