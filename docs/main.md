@@ -5,8 +5,10 @@ sidebar_label: Strona główna
 slug: /
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 <div style={{textAlign: 'center'}}>
-  <img src="../static/img/susteny.png" alt="Susteny logo"/>
+  <img src={useBaseUrl("img/susteny.png")} alt="Susteny logo"/>
 </div>
 <br></br>
 
