@@ -6,7 +6,7 @@ slug: /
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="../static/img/susteny.png"/>
+  <img src="../static/img/creating_items_icon.png"/>
 </div>
 <br></br>
 
