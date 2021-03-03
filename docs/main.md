@@ -10,4 +10,4 @@ slug: /
 </div>
 <br></br>
 
-Opisane są tu różne istniejące już systemy, które wykorzystujemy podczas tworzenia gry "Susteny".<br></br>Należy rozwinąć kategorię "Systemy".
+Opisane są tu istniejące już systemy, które można wykorzystać podczas tworzenia gry ***"Susteny"***.
