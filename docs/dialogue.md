@@ -57,15 +57,15 @@ Omówmy teraz szczegółowo graf:
 6. Startowy node reprezentujący początek dialogu
 7. Połączenie pomiędzy node&#39;ami wskazujące na przejście z jednej kwestii dialogowej do drugiej. Reprezentowane przez typ danych NodeLinkData
 8. Komórka dialogu
-  1. Tę opcję należy zaznaczyć, jeśli ten node ma kończyć dialog (jeśli jest to opcja „wyjścia&quot;)
-  2. Tę opcję należy zaznaczyć, jeśli (wyjątkowo) zawartość tego node&#39;a ma być wypowiedziana z ust gracza (np. jako kontynuacja wcześniej wypowiedzianej kwestii)
-  3. Pole tekstowe zawierające treść dialogu, który wypowiada NPC
-  4. [opcjonalnie] Alternatywny tekst dla NPC – zostaje wyświetlony zamiast głównej opcji dialogowej ( **8.3** ) gdy trafimy na daną opcję ponownie. Eliminuje to absurdalne sytuacje, że postać wita się z nami w nieskończoność, gdy wybieramy ciągle tę samą opcję dialogową. Jeśli nie chcesz, żeby NPC wypowiadał alternatywny dialog, zostaw to pole puste lub wyczyść je przyciskiem ( **8.9** )
-  5. Przycisk usuwający dodaną opcję dialogową gracza
-  6. Jeśli ta opcja jest zaznaczona (domyślnie zawsze tak), to po powrocie do tego node&#39;a, jeśli wcześniej wybraliśmy tę opcję, będzie ona wyszarzona. Zaleca się pozostawienie tej opcji włączonej. Zmień ją na „false&quot; tylko w szczególnych przypadkach, jeśli wiesz, co robisz
-  7. Pole tekstowe zawierające treść opcji dialogowej, którą może wybrać gracz. Takie pole dodaje się przyciskiem ( **8.8** )
-  8. Przycisk dodający opcję dialogową, którą może wybrać gracz
-  9. Przycisk usuwający treść alternatywnego tekstu NPC
+   1. Tę opcję należy zaznaczyć, jeśli ten node ma kończyć dialog (jeśli jest to opcja „wyjścia&quot;)
+   2. Tę opcję należy zaznaczyć, jeśli (wyjątkowo) zawartość tego node&#39;a ma być wypowiedziana z ust gracza (np. jako kontynuacja wcześniej wypowiedzianej kwestii)
+   3. Pole tekstowe zawierające treść dialogu, który wypowiada NPC
+   4. [opcjonalnie] Alternatywny tekst dla NPC – zostaje wyświetlony zamiast głównej opcji dialogowej ( **8.3** ) gdy trafimy na daną opcję ponownie. Eliminuje to absurdalne sytuacje, że postać wita się z nami w nieskończoność, gdy wybieramy ciągle tę samą opcję dialogową. Jeśli nie chcesz, żeby NPC wypowiadał alternatywny dialog, zostaw to pole puste lub wyczyść je przyciskiem ( **8.9** )
+   5. Przycisk usuwający dodaną opcję dialogową gracza
+   6. Jeśli ta opcja jest zaznaczona (domyślnie zawsze tak), to po powrocie do tego node&#39;a, jeśli wcześniej wybraliśmy tę opcję, będzie ona wyszarzona. Zaleca się pozostawienie tej opcji włączonej. Zmień ją na „false&quot; tylko w szczególnych przypadkach, jeśli wiesz, co robisz
+   7. Pole tekstowe zawierające treść opcji dialogowej, którą może wybrać gracz. Takie pole dodaje się przyciskiem ( **8.8** )
+   8. Przycisk dodający opcję dialogową, którą może wybrać gracz
+   9. Przycisk usuwający treść alternatywnego tekstu NPC
 9. Komórka kończąca dialog (pokazana jako przykład – jeśli chcesz, żeby jakaś opcja kończyła dialog, połącz ją właśnie z taką komórką, która ma zaznaczoną opcję **8.1** )
 10. Minimapa pozwalająca na podgląd całokształtu grafu
 11. Tablica – **NIEUŻYWANA** , niedokończona część pierwotnego package&#39;a dialogowego. **Ignorować, nie wchodzić z nią w interakcje.** Może zostać (najprawdopodobniej) usunięta lub rozwinięta w przyszłości
