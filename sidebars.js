@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Dokumentacja',
-      items: ['doc', 'doc1', 'doc2'],
+      items: ['doc', 'doc1', 'doc2', 'doc3'],
     },
   ],
 };
